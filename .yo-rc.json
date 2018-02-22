@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "erast",
+    "libraryId": "72ac8f53-7b0e-48d1-886b-088596421415",
+    "environment": "spo"
+  }
+}

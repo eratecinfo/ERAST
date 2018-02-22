@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "era-seguranca-trabalho-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eraSegurancaTrabalho/EraSegurancaTrabalhoWebPart.js",
+          "manifest": "./src/webparts/eraSegurancaTrabalho/EraSegurancaTrabalhoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EraSegurancaTrabalhoWebPartStrings": "lib/webparts/eraSegurancaTrabalho/loc/{locale}.js"
+  }
+}
